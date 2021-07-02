@@ -1,0 +1,11 @@
+p.value
+  {
+    text-decoration:underline;
+    font-weight: bold;
+  }
+
+table#empTable
+{
+    width:30%;
+    padding: 35px;
+}

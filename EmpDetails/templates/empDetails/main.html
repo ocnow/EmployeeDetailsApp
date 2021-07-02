@@ -1,0 +1,21 @@
+<html>
+ <script type="text/javascript" src="{{ url_for('static', filename='jquery/jquery.js') }}"></script>
+ <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+  Employee Id - <input type="text" id="employeeId">
+  <input type="button" id="submit" value="submit" />
+  <table id="empTable">
+      <tr>
+          <td> <p>First Name : <p/> </td> <td><p id="fname" class="value">FNAME<p/> </td>
+          <td> <p>Last Name : <p/> </td> <td><p id="lname" class="value">LNAME<p/> </td>
+      </tr>
+      <tr>
+          <td> <p>Phone No. : <p/> </td> <td><p id="phoneNo" class="value">12341234<p/> </td>
+          <td> <p>City : <p/> </td> <td><p id="city" class="value">London<p/> </td>
+      </tr>
+  </table>
+</body>
+ </html>
